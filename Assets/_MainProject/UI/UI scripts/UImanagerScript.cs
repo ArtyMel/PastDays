@@ -12,7 +12,8 @@ public class UImanagerScript : MonoBehaviour
     void Start()
     {
         pause.SetActive(false);
-        ExitQf();
+        exitQ.SetActive(false);
+        pause.SetActive(false);
     }
 
     void Update()
